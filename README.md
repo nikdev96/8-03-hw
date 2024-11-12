@@ -91,7 +91,7 @@ git push origin main
 ```
 
 
-![Скрин шот из Network graph](https://screenshare.ru/s/9AZndr64RBQW5Ttaqq2THG)
+![Скрин шот из Network graph](https://github.com/nikdev96/8-03-hw/blob/main/network.png)
 
 
 ### Задание 4
