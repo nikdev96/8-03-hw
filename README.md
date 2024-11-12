@@ -16,6 +16,7 @@
 6. Проверили статус изменений с помощью команды `git status`, чтобы увидеть, что файл изменен.
    `git add README.md`
    `git commit -m "Initial commit"`
+   `git push origin main`
 
 
 ### Задание 2
