@@ -98,21 +98,37 @@ git push origin main
 ### Задание 4
 
 
+1. Создаем новой ветки conflict и переключение на нее
+`git checkout -b conflict`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+2. Изменение файла test.sh и создание коммита в ветке conflict
+`echo "Conflict change from conflict branch" >> test.sh`
+`git add test.sh`
+`git commit -m "Change in test.sh from conflict branch"`
 
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
+3. Отправка изменений в ветке conflict на GitHub
+`git push origin conflict`
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+4. Переключение на основную ветку main
+`git checkout main`
+
+5. Изменение файла test.sh в основной ветке и создание коммита
+`echo "Different change in test.sh from main branch" >> test.sh`
+`git add test.sh`
+`git commit -m "Change in test.sh from main branch"`
+
+6. Отправка изменений основной ветки на GitHub
+`git push origin main`
+
+7. Попытка слияния ветки conflict с основной веткой main
+`git merge conflict`
+
+8. Разрешение конфликта (выбор изменений из ветки conflict)
+`Открыть test.sh, отредактировать, сохранить`
+
+9. Добавление разрешенного конфликта в индекс и завершение коммита
+`git add test.sh`
+`git commit -m "Resolve conflict by taking changes from conflict branch"`
+
+10. Пуш изменений основной ветки на GitHub
+`git push origin main`
