@@ -28,21 +28,16 @@
    `cache`
 3. Добавил файл .gitignore в индекс.
 4. Создал коммит с описанием и отправили изменения на GitHub.
-# Создаем файла .gitignore
+Создаем файла .gitignore
 `touch .gitignore`
-
-# Добавление правил в .gitignore
-
-# Проверка статуса изменений
+Добавление правил в .gitignore
+Проверка статуса изменений
 `git status`
-
-# Добавление .gitignore в индекс
+Добавление .gitignore в индекс
 `git add .gitignore`
-
-# Создание коммита
+Создание коммита
 `git commit -m "Add .gitignore with rules to ignore .pyc files and cache directory"`
-
-# Отправка коммита на GitHub
+Отправка коммита на GitHub
 `git push origin main`
 
 
