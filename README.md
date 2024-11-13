@@ -18,6 +18,7 @@
    `git commit -m "Initial commit"`
    `git push origin main`
 
+ [Ссылка на коммит для задания 1](https://github.com/nikdev96/my-homework/commit/e05d2127c448e592e01fb7e8c9ad73ec161daa0f)
 
 ### Задание 2
 
@@ -40,6 +41,8 @@
 `git commit -m "Add .gitignore with rules to ignore .pyc files and cache directory"`  
 Отправка коммита на GitHub  
 `git push origin main`  
+
+[Ссылка на коммит для задания 2](https://github.com/nikdev96/my-homework/blob/main/.gitignore)
 
 
 ### Задание 3
@@ -132,3 +135,5 @@ git push origin main
 
 10. Пуш изменений основной ветки на GitHub
 `git push origin main`
+
+[Ссылка на граф коммитов](https://github.com/nikdev96/my-homework/network)
